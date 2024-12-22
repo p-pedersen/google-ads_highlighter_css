@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+#tads, #tadsb {
+  margin-bottom: 2em;
+}
+#tads h1, 
+#tadsb h1{
+  /* display: contents; */
+  font-weight: bold;
+  color: orangered;
+  width: 100%;
+}
+
+#tads a, 
+#tadsb a{
+  /* color: orangered; */
+  font-family: "Open Sans";
+}
+
+#tads > div {
+  padding: 1em 0 0 0;
+}
+#tadsb > div > div {
+  margin: 1em 0 0 0;
+}
+
+#tads > div > div > div,
+#tadsb > div > div > div {
+  border: 1px solid mediumslateblue;
+  border: 1px solid orangered;
+  padding: 0.75em;
+  margin-bottom: 0;
+  border-radius: 0.5em;
+  box-shadow: 3px 3px 5px rgba(0,0,0,0.2);
+}
+
+#tads > div > div > div:hover,
+#tadsb > div > div > div:hover {
+  margin: -5px 5px 5px -5px;
+  box-shadow: 6px 6px 7px rgba(0,0,0,0.3);
+}
+
+#tads > div > div > div > div,
+#tadsb > div > div > div > div {
+  margin-bottom: 0;
+}
+
+
+#tads a > g-img,
+#tads g-img > img,
+#tadsb a > g-img,
+#tadsb g-img > img {
+  border: 1px solid mediumslateblue;
+  border: 1px solid orangered;
+  border-radius: 0.5em;
+  box-shadow: 3px 3px 5px rgba(0,0,0,0.5);
+  position: relative;
+}
+
+.top-pla-group-inner > div, 
+.pla-unit {
+  border: 1px solid orangered;
+  box-shadow: 3px 3px 5px rgba(0,0,0,0.25);
+}
